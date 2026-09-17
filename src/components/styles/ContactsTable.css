@@ -1,0 +1,22 @@
+.input {
+  position: relative;
+  display: inline-block;
+}
+
+.icon {
+  position: absolute;
+  right: 10px; 
+  top: 50%;
+  transform: translateY(-50%); 
+  pointer-events: none; 
+}
+
+.confirmation-message {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: bold;
+}
