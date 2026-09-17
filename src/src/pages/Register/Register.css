@@ -1,0 +1,49 @@
+.contenedor-register-page{
+    display: flex;
+    height: auto;
+    width: 100vw;
+}
+
+.register-left{
+    background-color: #49beb7;
+    flex: 1;
+    background-image: url(../../assets/img/register.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.register-rigth{
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    flex-direction: column;
+}
+
+.icon-nav1, .icon-nav2{
+    display: none;
+}
+
+
+@media (max-width: 853px) {
+    .contenedor-register-page{
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+    
+   .register-left{
+    display: none;
+   }
+}
+
+@media (max-width: 380px) {
+    .contenedor-register-page{
+        width: auto;
+    }
+
+    .register-rigth{
+        align-items: flex-start;
+        padding-left: 0.3rem;
+    }
+}
